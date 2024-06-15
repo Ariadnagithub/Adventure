@@ -57,7 +57,7 @@ data = {
     "def":10,
     "money":100,
     "exp":0,
-    "keys":{"yellow_key":0,
+    "keys":{"yellow_key":1,
     "blue_key":1,
     "red_key":1}
 }
