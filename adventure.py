@@ -3,14 +3,14 @@ import os
 from pygame.locals import *
 pygame.init()
 sounds={}
-for file in os.listdir("sound/SE"):
+for file in os.listdir("sounds/SE"):
 	a=file.split(".")
 	if a[1]=="wav" or a[1]=="mp3":
 		sounds[a[0]]=pygame.mixer.Sound(f"sound/SE/{file}")
 	print(sounds)
 
 bgm={}
-for file in os.listdir("sound/BGM"):
+for file in os.listdir("sounds/BGM"):
 	a=file.split(".")
 	if a[1]=="wav" or a[1]=="mp3":
 		bgm[a[0]]=f"sound/BGM/{file}"
